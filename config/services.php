@@ -29,5 +29,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'hubspot'=>[
+        'apikey'=>env('HUBSPOT_APIKEY'),
+        'contacts_url'=>env('HUBSPOT_URL')
+    ]
 
 ];
